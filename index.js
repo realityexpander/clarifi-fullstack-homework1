@@ -116,16 +116,21 @@ async function getForecastVariance(nodeId, date) {
 
                 // create child node for results
                 if (!result.children) result.children = [];
+                let variance = 0; // Protect against nulls
+                if (currentStoreForecastSubtotal != 0) {
+                    variance = (currentStoreSalesSubtotal / currentStoreForecastSubtotal) / 100;
+                }
                 result.children.push({
                     name: theCurrentStore.name,
                     totalSales: currentStoreSalesSubtotal,
                     totalForecast: currentStoreForecastSubtotal,
-                    variance: (currentStoreSalesSubtotal / currentStoreForecastSubtotal) / 100
+                    variance: variance
                 });
 
                 // compute the totals for the stores in this zone
                 result.totalSales = result.totalSales ? result.totalSales + currentStoreSalesSubtotal : currentStoreSalesSubtotal;
                 result.totalForecast = result.totalForecast ? result.totalForecast + currentStoreForecastSubtotal : currentStoreForecastSubtotal;
+                result.variance = (result.totalSales / result.totalForecast) / 100;
                 subTotalSales = result.totalSales;
                 subTotalForecast = result.totalForecast;
                 grandTotalSales += currentStoreSalesSubtotal;
@@ -139,7 +144,7 @@ async function getForecastVariance(nodeId, date) {
                 }
                 result.children.push({ name: theCurrentStore.name });
 
-                [, subTotalSales, subTotalForecast] = processStoreForecastChildren(theCurrentStore, storeForecast, storeSales, date, result.children[result.children.length - 1]);
+                [, subTotalSales, subTotalForecast] = processStoreForecastChildren(theCurrentStore, storeForecasts, storeSales, date, result.children[result.children.length - 1]);
                 result.totalSales += subTotalSales;
                 result.totalForecast += subTotalForecast;
                 result.variance = (result.totalSales / result.totalForecast) / 100;
@@ -172,10 +177,10 @@ async function getForecastVariance(nodeId, date) {
 //     console.log("getGrossSales node 12 OK = " + _.isEqual(grossSales, grossSalesSnapshot12));
 // });
 
-getForecastVariance(11, '2018-07-31').then(forecastVariance => {
-    console.log("getForecastVariance node 11 OK = " + _.isEqual(forecastVariance, forecastVarianceSnapshot11));
-});
-
-// getForecastVariance(12, '2018-08-01').then(forecastVariance => {
-//     console.log("getForecastVariance node 12 OK = " + _.isEqual(forecastVariance, forecastVarianceSnapshot12));
+// getForecastVariance(11, '2018-07-31').then(forecastVariance => {
+//     console.log("getForecastVariance node 11 OK = " + _.isEqual(forecastVariance, forecastVarianceSnapshot11));
 // });
+
+getForecastVariance(12, '2018-08-01').then(forecastVariance => {
+    console.log("getForecastVariance node 12 OK = " + _.isEqual(forecastVariance, forecastVarianceSnapshot12));
+});
