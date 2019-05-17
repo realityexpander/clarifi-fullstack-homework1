@@ -1,0 +1,61 @@
+{
+  "total": 0,
+  "children": {
+    "children": [
+      {
+        "name": "California",
+        "children": [
+          {
+            "name": "Southern California",
+            "children": [
+              {
+                "name": "LA Restaurant",
+                "total": 20229.98
+              },
+              {
+                "name": "San Diego Restaurant",
+                "total": 17777.76
+              }
+            ],
+            "total": 38007.74
+          },
+          {
+            "name": "Northern California",
+            "children": [
+              {
+                "name": "San Francisco Restaurant",
+                "total": 14321.1
+              },
+              {
+                "name": "San Jose Restaurant",
+                "total": 0
+              },
+              {
+                "name": "Santa Cruz Restaurant",
+                "total": 1667.5
+              }
+            ],
+            "total": 15988.6
+          }
+        ],
+        "total": 102868.52
+      },
+      {
+        "name": "Washington",
+        "children": [
+          {
+            "name": "Seattle Restaurant",
+            "total": 14341.1
+          },
+          {
+            "name": "Tacoma Restaurant",
+            "total": 0
+          }
+        ],
+        "total": 14341.1
+      }
+    ],
+    "total": 28682.2
+  },
+  "name": "West Coast"
+}

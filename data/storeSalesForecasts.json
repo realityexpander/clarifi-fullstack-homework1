@@ -1,0 +1,102 @@
+[
+    {
+        "storeId": 111,
+        "businessDay": "2018-07-31",
+        "forecastGrossSales": 12140.12
+    },
+    {
+        "storeId": 112,
+        "businessDay": "2018-07-31",
+        "forecastGrossSales": 1641.23
+    },
+    {
+        "storeId": 112,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 12341.10
+    },
+    {
+        "storeId": 1221,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 17341.10
+    },
+    {
+        "storeId": 12111,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 11441.10
+    },
+    {
+        "storeId": 12121,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 14321.10
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 1341.50
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 321.50
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 329.50
+    },
+    {
+        "storeId": 12111,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 9999.88
+    },
+    {
+        "storeId": 12111,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 7777.88
+    },
+    {
+        "storeId": 112,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 14341.10
+    },
+    {
+        "storeId": 1221,
+        "businessDay": "2018-08-02",
+        "forecastGrossSales": 14341.10
+    },
+    {
+        "storeId": 12111,
+        "businessDay": "2018-08-02",
+        "forecastGrossSales": 11341.10
+    },
+    {
+        "storeId": 12121,
+        "businessDay": "2018-08-02",
+        "forecastGrossSales": 14321.10
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-02",
+        "forecastGrossSales": 341.50
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 341.50
+    },
+    {
+        "storeId": 12123,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 321.50
+    },
+    {
+        "storeId": 12111,
+        "businessDay": "2018-08-02",
+        "forecastGrossSales": 8888.88
+    },
+    {
+        "storeId": 12112,
+        "businessDay": "2018-08-01",
+        "forecastGrossSales": 8888.88
+    }
+]

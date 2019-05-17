@@ -1,0 +1,82 @@
+{
+  "name": "West Coast",
+  "children": [
+    {
+      "name": "California",
+      "children": [
+        {
+          "name": "Southern California",
+          "children": [
+            {
+              "name": "LA Restaurant",
+              "totalSales": 20229.98,
+              "totalForecast": 29218.86,
+              "variance": 0.006923603453385929
+            },
+            {
+              "name": "San Diego Restaurant",
+              "totalSales": 17777.76,
+              "totalForecast": 8888.88,
+              "variance": 0.02
+            }
+          ],
+          "totalSales": 38007.74,
+          "totalForecast": 38107.74,
+          "variance": 0.009973758611767584
+        },
+        {
+          "name": "Northern California",
+          "children": [
+            {
+              "name": "San Francisco Restaurant",
+              "totalSales": 14321.1,
+              "totalForecast": 14321.1,
+              "variance": 0.01
+            },
+            {
+              "name": "San Jose Restaurant",
+              "totalSales": 0,
+              "totalForecast": 0,
+              "variance": 0
+            },
+            {
+              "name": "Santa Cruz Restaurant",
+              "totalSales": 1667.5,
+              "totalForecast": 2655.5,
+              "variance": 0.006279420071549614
+            }
+          ],
+          "totalSales": 15988.6,
+          "totalForecast": 16976.6,
+          "variance": 0.009418022454437285
+        }
+      ],
+      "totalSales": 53996.34,
+      "totalForecast": 55084.34,
+      "variance": 0.009802484698918059
+    },
+    {
+      "name": "Washington",
+      "children": [
+        {
+          "name": "Seattle Restaurant",
+          "totalSales": 14341.1,
+          "totalForecast": 17341.1,
+          "variance": 0.008270005939646274
+        },
+        {
+          "name": "Tacoma Restaurant",
+          "totalSales": 0,
+          "totalForecast": 0,
+          "variance": 0
+        }
+      ],
+      "totalSales": 14341.1,
+      "totalForecast": 17341.1,
+      "variance": 0.008270005939646274
+    }
+  ],
+  "totalSales": 68337.44,
+  "totalForecast": 72425.44,
+  "variance": 0.009435557450531195
+}

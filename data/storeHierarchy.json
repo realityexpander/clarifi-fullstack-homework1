@@ -1,0 +1,94 @@
+{
+    "id": 1,
+    "name": "Big Restaurant Co.",
+    "isStore": false,
+    "children": [
+        {
+            "id": 11,
+            "name": "East Coast",
+            "isStore": false,
+            "children": [
+                {
+                    "id": 111,
+                    "name": "Boston Restaurant",
+                    "isStore": true
+                },
+                {
+                    "id": 112,
+                    "name": "New York Restaurant",
+                    "isStore": true
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "West Coast",
+            "isStore": false,
+            "children": [
+                {
+                    "id": 121,
+                    "name": "California",
+                    "isStore": false,
+                    "children": [
+                        {
+                            "id": 1211,
+                            "name": "Southern California",
+                            "isStore": false,
+                            "children": [
+                                {
+                                    "id": 12111,
+                                    "name": "LA Restaurant",
+                                    "isStore": true
+                                },
+                                {
+                                    "id": 12112,
+                                    "name": "San Diego Restaurant",
+                                    "isStore": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1212,
+                            "name": "Northern California",
+                            "isStore": false,
+                            "children": [
+                                {
+                                    "id": 12121,
+                                    "name": "San Francisco Restaurant",
+                                    "isStore": true
+                                },
+                                {
+                                    "id": 12122,
+                                    "name": "San Jose Restaurant",
+                                    "isStore": true
+                                },
+                                {
+                                    "id": 12123,
+                                    "name": "Santa Cruz Restaurant",
+                                    "isStore": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 122,
+                    "name": "Washington",
+                    "isStore": false,
+                    "children": [
+                        {
+                            "id": 1221,
+                            "name": "Seattle Restaurant",
+                            "isStore": true
+                        },
+                        {
+                            "id": 1222,
+                            "name": "Tacoma Restaurant",
+                            "isStore": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

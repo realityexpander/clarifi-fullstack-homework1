@@ -1,0 +1,20 @@
+{
+  "name": "East Coast",
+  "children": [
+    {
+      "name": "Boston Restaurant",
+      "totalSales": 12540.12,
+      "totalForecast": 12140.12,
+      "variance": 0.010329486034734419
+    },
+    {
+      "name": "New York Restaurant",
+      "totalSales": 4641.23,
+      "totalForecast": 1641.23,
+      "variance": 0.02827897369655685
+    }
+  ],
+  "totalSales": 17181.35,
+  "totalForecast": 13781.35,
+  "variance": 0.012467102279529942
+}
